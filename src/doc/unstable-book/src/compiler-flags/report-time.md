@@ -29,7 +29,8 @@ Available options:
                 and
                 `RUST_TEST_TIME_DOCTEST` environment variables.
                 Expected format of environment variable is
-                `VARIABLE=WARN_TIME,CRITICAL_TIME`.
+                `VARIABLE=WARN_TIME,CRITICAL_TIME`, where times
+                are in milliseconds.
                 Not available for --format=terse
 --ensure-time
                 Treat excess of the test execution time limit as
@@ -39,7 +40,8 @@ Available options:
                 and
                 `RUST_TEST_TIME_DOCTEST` environment variables.
                 Expected format of environment variable is
-                `VARIABLE=WARN_TIME,CRITICAL_TIME`.
+                `VARIABLE=WARN_TIME,CRITICAL_TIME`, where times
+                are in milliseconds.
                 `CRITICAL_TIME` here means the limit that should not be
                 exceeded by test.
 ```
